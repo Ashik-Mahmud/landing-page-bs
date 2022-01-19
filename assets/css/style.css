@@ -1,0 +1,30 @@
+/* stylesheets  */
+
+/* google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+/* variables  */
+:root {
+  /* fonts  */
+  --montserrat: "Montserrat", sans-serif;
+
+  /* colors  */
+  --color: #9428e3;
+  --gradient: linear-gradient(90deg, #2937f0, #9f1ae2);
+}
+
+/* custom classes  */
+.font-mont {
+  font-family: var(--montserrat);
+}
+.gradient {
+  background-image: var(--gradient);
+}
+.text-color {
+  color: var(--color);
+}
+.bg-color {
+  background: var(--color);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
