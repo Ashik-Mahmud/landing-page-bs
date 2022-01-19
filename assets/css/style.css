@@ -44,3 +44,16 @@
 .btn-gradient{
     background: var(--gradient);
 }
+
+
+
+
+
+
+/* download free section  */
+.download-free{
+    background: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.562)), url(../img/background.png) no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    background-attachment: fixed;
+}
