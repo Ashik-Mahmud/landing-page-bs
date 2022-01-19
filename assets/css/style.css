@@ -12,7 +12,20 @@
   --gradient: linear-gradient(90deg, #2937f0, #9f1ae2);
 }
 
+/* utilities  */
+
+
+
 /* custom classes  */
+.font-weight-500{
+    font-weight: 550 !important;
+}
+.z-index{
+    z-index: 43;
+}
+.font-weight-400{
+    font-weight: 400;
+}
 .font-mont {
   font-family: var(--montserrat);
 }
@@ -27,4 +40,7 @@
 }
 .cursor-pointer {
   cursor: pointer;
+}
+.btn-gradient{
+    background: var(--gradient);
 }
